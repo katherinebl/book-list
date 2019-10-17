@@ -3,6 +3,13 @@ body {
   margin: 0;
   background-color:#5D1F79;
   overflow: hidden;
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Baloo Bhai', cursive;
+  margin: 0 auto;
 }
 .app-header,
 .app-footer {
@@ -15,6 +22,7 @@ body {
 .app-header {
   top: 0;
 }
+
 .app-footer {
   position: fixed;
   bottom: 0;
@@ -33,6 +41,7 @@ body {
   color: white;
   padding: 5px;
   margin: 5px 0 15px 0;
+  border-radius: 5px;
 }
 
 .success {
