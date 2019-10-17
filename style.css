@@ -1,8 +1,8 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #8e44ad;
-
+  background-color:#5D1F79;
+  overflow: hidden;
 }
 .app-header,
 .app-footer {
@@ -22,9 +22,10 @@ body {
 .container {
   background-color: #ecf0f1;
   padding: 40px;
-  max-width: 60%;
+  max-width: 40%;
   max-height: 100%;
   border-radius: 10px;
+  box-shadow: 0px 2px 5px 2px rgb(255, 254, 254);
   margin: 3% auto;
 }
 .success,
