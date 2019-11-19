@@ -29,12 +29,12 @@ h1 {
 }
 .container {
   background-color: #ecf0f1;
-  padding: 40px;
-  max-width: 40%;
+  padding: 20px;
+  max-width: 85%;
   max-height: 100%;
+  margin: 8% auto;
   border-radius: 10px;
   box-shadow: 0px 2px 5px 2px rgb(255, 254, 254);
-  margin: 3% auto;
 }
 .success,
 .error {
@@ -52,4 +52,20 @@ h1 {
   background: #e74c3c;
 }
 
-/* Missing mobile styles */
+/* Mobile styles */
+
+@media all and (min-width:768px) {
+  .container {
+    max-width: 60%;
+    margin: 5% auto;
+    padding: 30px;
+  }
+}
+
+@media all and (min-width:1024px) {
+  .container {
+    max-width: 40%;
+    margin: 3% auto;
+    padding: 40px;
+  }
+}
